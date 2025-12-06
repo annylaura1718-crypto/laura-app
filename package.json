@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "lucide-react": "^0.556.0",
     "react-dom": "^19.2.1",
     "react": "^19.2.1",
-    "@supabase/supabase-js": "2.39.0"
+    "@supabase/supabase-js": "2.39.0",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
